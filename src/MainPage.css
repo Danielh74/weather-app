@@ -1,0 +1,33 @@
+.hourly {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    height: 90px;
+}
+
+.day {
+
+    background:
+        linear-gradient(150deg, #2793ff, transparent 30%),
+        linear-gradient(330deg, rgb(147, 224, 255), transparent 30%),
+        linear-gradient(225deg, #fce7a1, #ffffff, #71d5ff, powderblue);
+}
+
+.night {
+    background:
+        linear-gradient(150deg, #001e3c, transparent 30%),
+        linear-gradient(330deg, rgb(71, 66, 110), transparent 30%),
+        linear-gradient(225deg, #351a82, #07001b, #373954, rgb(83, 91, 162));
+
+    .card {
+        color: white;
+    }
+}
+
+.blur {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
